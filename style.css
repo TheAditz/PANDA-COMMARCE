@@ -24,8 +24,15 @@
     cursor: pointer;
 }
 
+.cat1,
+.cat2,
+.cat3 {
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
 .cat1 {
-    background-color: orange;
+    background-color: rgb(255, 145, 0);
 }
 
 .cat2 {
@@ -33,5 +40,13 @@
 }
 
 .cat3 {
-    background-color: aqua;
+    background-color: rgb(0, 225, 255);
+}
+
+.catagories h1 {
+    color: #fff;
+}
+
+.catagories img {
+    width: 95px;
 }
